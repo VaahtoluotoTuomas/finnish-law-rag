@@ -12,6 +12,7 @@ __pycache__/
 # Generated
 data/embeddings.npy
 logs/
+scratch/
 
 # Editors / OS
 .vscode/
