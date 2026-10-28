@@ -8,7 +8,12 @@ version = "0.1.0"
 description = "Small retrieval-augmented generation demo over Finnish consumer protection and insurance contract law."
 readme = "README.md"
 requires-python = ">=3.11"
-dependencies = []
+dependencies = [
+    "numpy>=1.26",
+    "rank-bm25>=0.2.2",
+    "snowballstemmer>=2.2",
+    "sentence-transformers>=3.0",
+]
 
 [project.optional-dependencies]
 dev = ["pytest>=8", "ruff>=0.6"]

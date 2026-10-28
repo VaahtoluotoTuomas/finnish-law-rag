@@ -10,7 +10,7 @@ __pycache__/
 .env
 
 # Generated
-data/embeddings.npy
+data/embeddings.npz
 logs/
 scratch/
 
